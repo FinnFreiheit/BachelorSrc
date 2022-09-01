@@ -1,0 +1,33 @@
+.listHeader{
+    height: 100px;
+    background-color: black;
+    font-size: 22px;
+    color: white
+  }
+
+.loginContainer{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height:100%
+}
+
+.loginFields{
+    display: grid;
+    row-gap: 20px;
+}
+
+.paper{
+    display: grid;
+}
+
+.searchBarContainer{
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-block: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    column-gap: 10px;
+}
